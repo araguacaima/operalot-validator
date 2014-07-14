@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/operalot-validator.iml" filepath="$PROJECT_DIR$/operalot-validator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operalot-validator-api/operalot-validator-api.iml" filepath="$PROJECT_DIR$/operalot-validator-api/operalot-validator-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operalot-validator-impl/operalot-validator-game1/operalot-validator-game1.iml" filepath="$PROJECT_DIR$/operalot-validator-impl/operalot-validator-game1/operalot-validator-game1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operalot-validator-impl/operalot-validator-impl.iml" filepath="$PROJECT_DIR$/operalot-validator-impl/operalot-validator-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operalot-validator-persistence/operalot-validator-persistence.iml" filepath="$PROJECT_DIR$/operalot-validator-persistence/operalot-validator-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operalot-validator-util/operalot-validator-util.iml" filepath="$PROJECT_DIR$/operalot-validator-util/operalot-validator-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operalot-validator-web/operalot-validator-web.iml" filepath="$PROJECT_DIR$/operalot-validator-web/operalot-validator-web.iml" />
+    </modules>
+  </component>
+</project>
+

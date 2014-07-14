@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="operalot-validator-web:war">
+    <output-path>$PROJECT_DIR$/operalot-validator-web/target</output-path>
+    <root id="archive" name="operalot.validator-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="operalot-validator-web:war exploded" />
+    </root>
+  </artifact>
+</component>

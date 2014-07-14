@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Load Data</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="../../../resources/css/bootstrap.min.css" rel="stylesheet" media="screen"
+          th:href="@{/resources/css/bootstrap.min.css}"/>
+    <link href="../../../resources/css/core.css" rel="stylesheet" media="screen" th:href="@{/resources/css/core.css}"/>
+</head>
+<body>
+<div th:replace="fragments/header :: header">&nbsp;</div>
+<br/>
+
+<div class="container">
+    <th:block th:if="${param.error != null}">
+        <div th:replace="fragments/alert :: alert (type='danger', message='Sign in error. Please try again.')">Alert
+        </div>
+    </th:block>
+
+    <form action="/#"
+          class="form-narrow form-horizontal"
+          method="post">
+
+        <fieldset>
+            <legend>Load Data</legend>
+            <legend>Please Select Game</legend>
+        </fieldset>
+        <select id="games" name="games" size="1" onchange="window.location = '/fill?game=' + this.value;">
+            <option th:each="game : ${games}"
+                    th:value="${game.name}"
+                    th:text="${game.name}">
+                Select Game
+            </option>
+        </select>
+
+    </form>
+
+</div>
+</body>
+</html>

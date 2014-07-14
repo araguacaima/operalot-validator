@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="OpenJpaConfiguration">
+    <option name="enhancerEnabled" value="false" />
+    <option name="metaDataExtensions">
+      <set>
+        <option value="jpa" />
+      </set>
+    </option>
+  </component>
+</project>
+

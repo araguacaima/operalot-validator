@@ -1,0 +1,73 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="operalot-validator-web:war exploded">
+    <output-path>$PROJECT_DIR$/operalot-validator-web/target/operalot-validator</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="operalot-validator-web/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="operalot-validator-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="operalot.validator.persistence-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="operalot-validator-persistence" />
+          </element>
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: org.json:json:20090211" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.9" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.9" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:eclipselink:2.5.1" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:javax.persistence:2.1.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:commonj.sdo:2.1.1" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: com.h2database:h2:1.3.172" />
+          <element id="archive" name="operalot.validator.api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="operalot-validator-api" />
+          </element>
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
+          <element id="archive" name="operalot.validator.util-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="operalot-validator-util" />
+          </element>
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.7.4" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.7.1" />
+          <element id="archive" name="operalot.validator.impl.game1-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="operalot-validator-game1" />
+          </element>
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.2" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.3.0.Final" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.1.0.CR2" />
+          <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf:2.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: ognl:ognl:3.0.6" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.16.1-GA" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf-spring4:2.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.thymeleaf.extras:thymeleaf-extras-springsecurity3:2.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.hsqldb:hsqldb:2.3.0" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-jpa:1.4.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.6.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.5" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.13" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.0.13" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:14.0.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
