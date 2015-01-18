@@ -2,7 +2,6 @@
   <artifact type="exploded-war" build-on-make="true" name="operalot-validator-web:war exploded">
     <output-path>$PROJECT_DIR$/operalot-validator-web/target/operalot-validator</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="operalot-validator-web/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="operalot-validator-web" />
@@ -68,6 +67,7 @@
           <element id="library" level="project" name="Maven: com.google.guava:guava:14.0.1" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="operalot-validator-web/web/Web" />
     </root>
   </artifact>
 </component>

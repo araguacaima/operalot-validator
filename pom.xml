@@ -7,28 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <name>Operalot Validator</name>
     <url>http://maven.apache.org</url>
-    <repositories>
-        <repository>
-            <id>java.net2</id>
-            <name>Repository hosting the jee6 artifacts</name>
-            <url>http://download.java.net/maven/2</url>
-        </repository>
-        <repository>
-            <id>sonatype-oss-repository</id>
-            <url>https://oss.sonatype.org/content/groups/public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>repository.spring.milestone</id>
-            <name>Spring Milestone Repository</name>
-            <url>http://repo.spring.io/milestone</url>
-        </repository>
-    </repositories>
+
     <properties>
         <jstl.version>1.2</jstl.version>
         <javax.servlet.version>2.5</javax.servlet.version>
